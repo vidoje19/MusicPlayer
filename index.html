@@ -8,123 +8,122 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="player">
-        <div class="header">
-            <div class="player-img player_img slider">
-                <button class="button player-button--absolute--nw playlist">
-                    <img src="img/преузимање.png" alt="pl-img">
-                </button>
-                <button class="button player-button--absolute--center play">
-                    <img src="img/преузимање (1).png" alt="play-icon">
-                    <img src="img/icon-pause-512.jpg" alt="pause-img">
-                </button>
-                <div class="slider">
-                    <img class="img img-slider" src="img/klinac.jpg" alt="cover">
-                    <img class="img img-slider" src="img/coby.jpg" alt="cover">
-                    <img class="img img-slider" src="img/fox.jpg" alt="cover">
-                    <img class="img img-slider" src="img/surreal.jpg" alt="cover">
-                    <img class="img img-slider" src="img/cc.jpg" alt="cover">
-                    <img class="img img-slider" src="img/nucci.jpg" alt="cover">
-                    <img class="img img-slider" src="img/devito.jpg" alt="cover">
-                </div>
-            </div>
-            <div class="player-controls">
-                <button class="player-button back">
-                    <img class="img" src="img/back-icon.png" alt="back-icon" >
-                </button>
-                <p class="player-context slider-context">
-                    <strong class="slider-name"></strong>
-                    <span class="player-title slider-title"></span>
-                </p>
-                <button class="player-button next">
-                    <img class="img" src="img/next-icon.png" alt="next-icon">
-                </button>
-                <div class="progress">
-                    <div class="progress-filled"></div>
-                </div>
-            </div>
-        </div>
-        <ul class="player-playlist list">
-            <li class="player-song">
-                <img class="player-img" src="img/klinac.jpg" alt="cover">
-                <p  class="player-context">
-                    <b class="player_song-name">Molitva</b>
-                    <span class="flex">
-                        <span class="player-title">Klinac</span>
-                        <span class="player_song-time"></span>
-                    </span>
-                </p>
-                <audio class="audio" src="https://www.youtube.com/watch?v=w56EjHTJ94E" ></audio>
-            </li>
-            <li class="play-song">
-                <img class="player-img img" src="img/coby.jpg" alt="cover">
-                <p class="player-context">
-                    <b class="player_song-name">Odakle sam ja</b>
-                    <span class="flex">
-                        <span class="player-title">Coby</span>
-                        <span class="play_song-time"></span>
-                    </span>
-                </p>
-                <audio  class="audio" src="">https://www.youtube.com/watch?v=mdJQZHodyxo</audio>
-            </li>
-            <li class="play-song">
-                <img class="player-img img" src="img/fox.jpg" alt="cover">
-                <p class="player-context">
-                    <b class="player_song-name">Par Dana</b>
-                    <span class="flex">
-                        <span class="player-title">Fox</span>
-                        <span class="play_song-time"></span>
-                    </span>
-                </p>
-                <audio  class="audio" src="">https://www.youtube.com/watch?v=8fhvUnShptY</audio>
-            </li>
-            <li class="play-song">
-                <img class="player-img img" src="img/surreal.jpg" alt="cover">
-                <p class="player-context">
-                    <b class="player_song-name">Na Minut Do Mora</b>
-                    <span class="flex">
-                        <span class="player-title">Surreal</span>
-                        <span class="play_song-time"></span>
-                    </span>
-                </p>
-                <audio  class="audio" src="">https://www.youtube.com/watch?v=5F9eHOeZdi4</audio>
-            </li>
-            <li class="play-song">
-                <img class="player-img img" src="img/cc.jpg" alt="cover">
-                <p class="player-context">
-                    <b class="player_song-name">Pare Pare</b>
-                    <span class="flex">
-                        <span class="player-title">Crni Cerak</span>
-                        <span class="play_song-time"></span>
-                    </span>
-                </p>
-                <audio  class="audio" src="">https://www.youtube.com/watch?v=Vod5hQAn1WQ</audio>
-            </li>
-            <li class="play-song">
-                <img class="player-img img" src="img/nucci.jpg" alt="cover">
-                <p class="player-context">
-                    <b class="player_song-name">Crno Oko</b>
-                    <span class="flex">
-                        <span class="player-title">Nucci</span>
-                        <span class="play_song-time"></span>
-                    </span>
-                </p>
-                <audio  class="audio" src="">https://www.youtube.com/watch?v=cYxYTm3pEjA</audio>
-            </li>
-            <li class="play-song">
-                <img class="player-img img" src="img/devito.jpg" alt="cover">
-                <p class="player-context">
-                    <b class="player_song-name">Leden</b>
-                    <span class="flex">
-                        <span class="player-title">Devito</span>
-                        <span class="play_song-time"></span>
-                    </span>
-                </p>
-                <audio  class="audio" src="">https://www.youtube.com/watch?v=XKOaOnBHjZI</audio>
-            </li>
-        </ul>
-    </div>
-    
+    <div class="player">  
+        <div class="player__header">  
+         <div class="player__img player__img--absolute slider">  
+          <button class="player__button player__button--absolute--nw playlist">  
+           <img src="img/преузимање.png" alt="playlist-icon">  
+          </button>  
+          <button class="player__button player__button--absolute--center play">  
+           <img src="img/преузимање (1).png" alt="play-icon">  
+           <img src="img/icon-pause-512.jpg" alt="pause-icon">  
+          </button>  
+          <div class="slider__content">  
+           <img class="img slider__img" src="img/klinac.jpg" alt="cover">  
+           <img class="img slider__img" src="img/coby.jpg" alt="cover">  
+           <img class="img slider__img" src="img/fox.jpg" alt="cover">  
+           <img class="img slider__img" src="img/surreal.jpg" alt="cover">  
+           <img class="img slider__img" src="img/cc.jpg" alt="cover">  
+           <img class="img slider__img" src="img/nucci.jpg" alt="cover">  
+           <img class="img slider__img" src="img/devito.jpg" alt="cover">  
+          </div>  
+         </div>  
+         <div class="player__controls">  
+          <button class="player__button back">  
+           <img class="img" src="img/back-icon.png" alt="back-icon">  
+          </button>  
+          <p class="player__context slider__context">  
+           <strong class="slider__name"></strong>  
+           <span class="player__title slider__title"></span>  
+          </p>  
+          <button class="player__button next">  
+           <img class="img" src="img/next-icon.png" alt="next-icon">  
+          </button>  
+          <div class="progres">  
+           <div class="progres__filled"></div>  
+          </div>  
+         </div>  
+        </div>  
+        <ul class="player__playlist list">  
+         <li class="player__song">  
+          <img class="player__img img" src="img/klinac.jpg" alt="cover">  
+          <p class="player__context">  
+           <b class="player__song-name">Molitva</b>  
+           <span class="flex">  
+            <span class="player__title">Klinac</span>  
+            <span class="player__song-time"></span>  
+           </span>  
+          </p>  
+          <audio class="audio" src="https://www.youtube.com/watch?v=w56EjHTJ94E"></audio>  
+         </li>  
+         <li class="player__song">  
+          <img class="player__img img" src="img/coby.jpg" alt="cover">  
+          <p class="player__context">  
+           <b class="player__song-name">Odakle Sam Ja</b>  
+           <span class="flex">  
+            <span class="player__title">Coby</span>  
+            <span class="player__song-time"></span>  
+           </span>  
+          </p>  
+          <audio class="audio" src="https://www.youtube.com/watch?v=mdJQZHodyxo"></audio>  
+         </li>  
+         <li class="player__song">  
+          <img class="player__img img" src="img/fox.jpg" alt="cover">  
+          <p class="player__context">  
+           <b class="player__song-name">Par Dana</b>  
+           <span class="flex">  
+            <span class="player__title">Fox</span>  
+            <span class="player__song-time"></span>  
+           </span>  
+          </p>  
+          <audio class="audio" src="https://www.youtube.com/watch?v=8fhvUnShptY"></audio>  
+         </li>  
+         <li class="player__song">  
+          <img class="player__img img" src="img/surreal.jpg" alt="cover">  
+          <p class="player__context">  
+           <b class="player__song-name">Na Minut Do Mora</b>  
+           <span class="flex">  
+            <span class="player__title">Surreal</span>  
+            <span class="player__song-time"></span>  
+           </span>  
+          </p>  
+          <audio class="audio" src="https://www.youtube.com/watch?v=5F9eHOeZdi4"></audio>  
+         </li>  
+         <li class="player__song">  
+          <img class="player__img img" src="img/cc.jpg" alt="cover">  
+          <p class="player__context ">  
+           <b class="player__song-name">Pare Pare</b>  
+           <span class="flex">  
+            <span class="player__title">Crni Cerak</span>  
+            <span class="player__song-time"></span>  
+           </span>  
+          </p>  
+          <audio class="audio" src="https://www.youtube.com/watch?v=Vod5hQAn1WQ"></audio>  
+         </li>  
+         <li class="player__song">  
+          <img class="player__img img" src="img/nucci.jpg" alt="cover">  
+          <p class="player__context">  
+           <b class="player__song-name">Crno Oko</b>  
+           <span class="flex">  
+            <span class="player__title">Nucci</span>  
+            <span class="player__song-time"></span>  
+           </span>  
+          </p>  
+          <audio class="audio" src="https://www.youtube.com/watch?v=cYxYTm3pEjA"></audio>  
+         </li>  
+         <li class="player__song">  
+          <img class="player__img img" src="img/devito.jpg" alt="cover">  
+          <p class="player__context ">  
+           <b class="player__song-name">Leden</b>  
+           <span class="flex">  
+            <span class="player__title">Devito</span>  
+            <span class="player__song-time"></span>  
+           </span>  
+          </p>  
+          <audio class="audio" src="https://www.youtube.com/watch?v=XKOaOnBHjZI"></audio>  
+         </li>  
+        </ul>  
+       </div>  
     <script src="js.js"></script>
 </body>
 </html>
